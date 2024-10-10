@@ -1,0 +1,26 @@
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: black;
+  color: lightgreen;
+}
+
+.card_section_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 2%;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5%;
+}
+
+.flex_so_me_footer {
+  display: flex;
+  justify-content: right;
+  gap: 5%;
+}
